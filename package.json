@@ -1,15 +1,24 @@
 {
   "name": "create-mjs",
   "description": "Barebones boilerplate for a new project that uses modules",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "module",
+    "mjs",
     "esm",
     "create-esm"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickColley/create-mjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickColley/create-mjs/issues"
+  },
+  "homepage": "https://github.com/NickColley/create-mjs#readme"
 }
