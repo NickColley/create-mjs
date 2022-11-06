@@ -3,7 +3,8 @@
 const fs = require("fs");
 const path = require("path");
 
-const name = path.basename(__dirname);
+const cwd = fs.realpathSync(process.cwd());
+const name = path.basename(cwd);
 
 const packageFile = `{
   "private": true,
@@ -18,5 +19,4 @@ const packageFile = `{
   "license": "MIT"
 }`;
 
-const cwd = fs.realpathSync(process.cwd());
 fs.writeFileSync(path.join(cwd, "package.json"), packageFile);

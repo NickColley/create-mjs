@@ -1,7 +1,7 @@
 {
   "name": "create-mjs",
   "description": "Barebones boilerplate for a new project that uses modules",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
